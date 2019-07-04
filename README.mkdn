@@ -16,14 +16,14 @@ familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
      git config --global user.email "you@example.com"
      git config --global user.name "Your Name"
 
-3.Then Create a folder for lineageOS and open it
+3.Then Create a folder for Havoc and open it
 
-    mkdir lineage
-    cd lineage
+    mkdir los
+    cd los
 
-4.To initialize your local repository using the LineageOS trees, use a command like this:
+4.To initialize your local repository using the Lineage trees, use a command like this:
 
-LOS
+Lineage
 
     repo init -u git://github.com/LineageOS/android.git -b lineage-16.0
      
@@ -32,7 +32,7 @@ LOS
 
     mkdir .repo/local_manifests
 
-    wget -O .repo/local_manifests/MSM8916.xml 'https://raw.githubusercontent.com/MOTO-M8916/android_manifest/lineage-16.0/MSM8916.xml'
+    wget -O .repo/local_manifests/sdm636.xml 'https://raw.githubusercontent.com/sdm636/android_manifest/lineage-16.0/sdm636.xml'
     
 6.Then to sync up:
 
@@ -46,9 +46,9 @@ OR, for those with limited bandwidth/storage:
 
     . build/envsetup.sh
 
-8.Now build (codename: osprey/lux/surnia/harpia/merlin)
+8.Now build 
 
-    brunch codename  
+    brunch X00T 
 
 Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions.
 
