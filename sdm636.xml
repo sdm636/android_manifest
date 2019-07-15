@@ -9,14 +9,5 @@
 <project path="kernel/asus/sdm660" name="sdm636/kernel_asus_sdm660" revision="lineage-16.0-old" remote="git"/>
 <project path="vendor/asus" name="sdm636/vendor_asus" revision="lineage-16.0" remote="git"/>
 
-<!-- Lineage -->
-<remove-project name="frameworks/base" />
-<project path="frameworks/base" name="sdm636/android_frameworks_base" revision="lineage-16.0" remote="git"/>
-<remove-project name="frameworks/opt/net/wifi" />
-<project path="frameworks/opt/net/wifi" name="sdm636/android_frameworks_opt_net_wifi" revision="lineage-16.0" remote="git"/>
-<remove-project name="packages/apps/Settings" />
-<project path="packages/apps/Settings" name="sdm636/android_packages_apps_Settings" revision="lineage-16.0" remote="git"/>
-  
-
 </manifest>
 
