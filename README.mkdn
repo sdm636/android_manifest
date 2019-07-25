@@ -4,14 +4,14 @@ Getting Started
 1.To initialize your local repository using the Lineage trees, use a command like this:
 
 
-    repo init -u git://github.com/LineageOS/android.git -b lineage-16.0
+    repo init -u https://github.com/PixelExperience/manifest -b pie
      
 
 2.Now create a local_manifests dir and Copy the required manifests in that folder.
 
     mkdir .repo/local_manifests
 
-    wget -O .repo/local_manifests/sdm636.xml 'https://raw.githubusercontent.com/sdm636/android_manifest/lineage-16.0/sdm636.xml'
+    wget -O .repo/local_manifests/sdm636.xml 'https://raw.githubusercontent.com/sdm636/android_manifest/pie/sdm636.xml'
     
 3.Then to sync up:
 
