@@ -5,7 +5,7 @@
           fetch="https://github.com/" />
 
 <!-- X00T stuff -->
-<project path="device/asus/X00T" name="sdm636/device_asus_X00T" revision="pie" remote="git"/>
+<project path="device/asus/X00T" name="sdm636/device_asus_X00T" revision="lineage-16.0" remote="git"/>
 <project path="kernel/asus/sdm660" name="sdm636/kernel_asus_sdm660" revision="lineage-16.0-old" remote="git"/>
 <project path="vendor/asus" name="sdm636/vendor_asus" revision="lineage-16.0" remote="git"/>
 
